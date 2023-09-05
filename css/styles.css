@@ -1,0 +1,94 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    background: linear-gradient(180deg, #151846 0%, #903a3a 100%), linear-gradient(58.72deg, #213598 0%, #202668 100%), radial-gradient(100% 164.72% at 100% 100%, #e12ea6 0%, #31d560 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
+    background-blend-mode: overlay, overlay, difference, normal;
+}
+
+
+header{
+    background-image: linear-gradient(to right top, #151846, #1b1d4b, #202350, #262856, #2b2e5b);
+}
+    header h1{
+        font-family:'Poppins', sans-serif;
+        color: #db2d2d;
+        font-size: 40px;
+        text-shadow: 3px 1px 4px rgba(0,0,0,0.6);
+    }
+    .header-logo{
+        height: 110px;
+        padding-top: 5px;
+    }
+    #backhoe-img{
+        padding-left: 15px;
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); 
+        /* !!! sombra sobre el svg, no su caja contenedora */
+    }
+
+
+.navbar{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #111438, #151846);
+}
+
+    .carousel-item{
+        height: 450px;
+    }
+
+#welcomeBox{
+    padding: 12%;
+}
+    h2{
+        color: aliceblue;
+    }
+    p{
+        color: aliceblue;
+    }
+
+footer{
+    background: #151846;
+    padding: 3%;
+    clear: both;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.row{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5%;
+}
+    .about-us{
+        margin-top: 130px;
+        padding: 5%;
+        width: 500px;
+        box-sizing: border-box;
+    }
+        #legend{
+         color: aliceblue;
+         padding: 15px;
+        }
+    .staff{
+        padding: 5%;
+        width: 400px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+        h4{
+            color: aliceblue;
+            font-size: 20px;
+            margin: 10px;
+        }
+        h5{
+            color: aliceblue;
+            font-size: 16px;
+            margin: 10px;
+        }
+        #staff-img{
+            margin: 20px;
+        }
