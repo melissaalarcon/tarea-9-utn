@@ -32,9 +32,10 @@ header{
     background-image: linear-gradient(to top, #111438, #151846);
 }
 
-    .carousel-item{
+    /* .carousel-item{
         height: 450px;
     }
+    FUNCIONA PARA DELIMITAR EL TAMAÑO DE LA VERSION WEB, PERO ROMPE EL RESPONSIVE. ES PREFERIBLE CONTROLAR LA MEDIDA DE LAS IMÁGENES CON PS */
 
 #welcomeBox{
     padding: 12%;
@@ -54,6 +55,8 @@ footer{
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
 }
+
+/* SECCION NOSOTROS */
 
 .row{
     display: inline-flex;
@@ -79,6 +82,9 @@ footer{
         border-radius: 8px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
+        h2{
+            padding: 3%;
+        }
         h4{
             color: aliceblue;
             font-size: 20px;
@@ -92,3 +98,68 @@ footer{
         #staff-img{
             margin: 20px;
         }
+
+/* SECCION SERVICIOS */
+
+/* #cajas-servicios{
+    margin: 0;
+} */
+    #services{
+        color: aliceblue;
+    }
+    .img-left{
+        float: left;
+        margin: auto;
+        vertical-align: middle;
+    }
+    .img-right{
+        float: right;
+        vertical-align: middle;
+    }
+    .col{
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 50px;
+        height: 150px;
+        /* para darle margen al div entre la img y el borde, se trabaja sobre el div de la columna, no sobre el contenedor padre. */
+    }
+
+/* SECCION CONTACTANOS */
+
+.container-formulario{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+    .plantilla-contacto{
+        width: 720px;
+        background-color: #2b2e5b;
+        padding: 2%;
+        border-radius: 8px 0px 0px 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    form{
+        color: aliceblue;
+    }
+.info-contacto{
+    text-align: justify;
+    line-height: 30px;
+    width: 300px;
+    color: aliceblue;
+    background-color: #434888;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 12px;
+    padding: 2%;
+}
+    .info-contacto h4{
+        text-align: center;
+    }
+    li{
+        list-style: none;
+    }
+    i{
+        margin-left: 5px;
+    }
+
